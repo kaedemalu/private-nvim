@@ -7,3 +7,9 @@ local opts = {open = true}
 sidebar.setup(opts)
 
 vim.cmd('colorscheme terafox')
+
+require 'lualine'.setup {
+  options = {
+    theme = 'dracula'
+  }
+}
