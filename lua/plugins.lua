@@ -6,6 +6,7 @@ require'packer'.startup(function()
   use {'neoclide/coc.nvim'}
   use { 'hashicorp/terraform-ls' }
   use { 'sidebar-nvim/sidebar.nvim' }
+  use { 'hashivim/vim-terraform' }
 
   use{'wbthomason/packer.nvim', opt = true}
 
