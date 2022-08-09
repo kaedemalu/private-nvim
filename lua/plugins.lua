@@ -2,6 +2,8 @@ vim.cmd[[packadd packer.nvim]]
 
 require'packer'.startup(function()
   use 'EdenEast/nightfox.nvim'
+  use 'iamcco/markdown-preview.nvim'
+  use 'jiangmiao/auto-pairs'
 
   use {'neoclide/coc.nvim'}
   use { 'hashicorp/terraform-ls' }

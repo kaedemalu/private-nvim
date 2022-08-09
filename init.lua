@@ -13,3 +13,9 @@ require 'lualine'.setup {
     theme = 'dracula'
   }
 }
+
+-- From .vimrc
+local opt = vim.o
+opt.number = true
+opt.cuc = true -- Cursor Column
+opt.cul = true -- Cursor Line
